@@ -1,7 +1,9 @@
 node {
-    stage 
-    {
-    def username = 'Jenkins'
-    echo "hai hema "
-    }
+    try{
+        stage('config')
+        {
+             echo "hai hema "
+         }
+       }
+    
 }
