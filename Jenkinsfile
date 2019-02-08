@@ -1,6 +1,6 @@
 node {
         stage('config')
         {
-             echo "hai hema "
+             mkdir "pipo"
          }
 }
