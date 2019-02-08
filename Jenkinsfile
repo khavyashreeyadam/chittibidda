@@ -1,6 +1,6 @@
 node {
         stage('config'){
-    dir ('hemalatha') {
+    dir ('hema') {
         writeFile file:'dummy', text:''
     }
 }
