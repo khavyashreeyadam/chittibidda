@@ -10,4 +10,7 @@ node {
              writeFile file:'chittitalli', text:''
         }         
         }
+        stage('addcontent'){
+        echo"hai hema how are you" >> chittitalli.txt
+        }
 }
