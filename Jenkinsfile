@@ -11,6 +11,6 @@ node {
         }         
         }
         stage('content'){
-        echo"muni">chittitalli.txt
+        echo"muni">chittitalli
         }
 }
