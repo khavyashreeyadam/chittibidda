@@ -11,7 +11,7 @@ node {
         }        
         }
         stage('content'){
-               def file1 = new File('chitti.txt')
+               def file1 = new File('chittitalli.txt')
 file1.write 'Working with files the Groovy way is easy.\n'
         
         }
