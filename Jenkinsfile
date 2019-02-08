@@ -11,6 +11,8 @@ node {
         }         
         }
         stage('addcontent'){
-        echo"hai hema how are you" >> chittitalli.txt
+        def readContent = readFile "chittitalli"
+writeFile file: "sample", text: "$readContent Version=$projectVersion\n"
+echo "${chittitalli.txt}"
         }
 }
