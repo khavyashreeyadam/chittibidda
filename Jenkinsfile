@@ -2,7 +2,7 @@ node {
         stage('config')
         {
     dir ('chitti') 
-                writeFile file:'dummy', text:''
+                writeFile file:'chittitalli', text:''
                     }
         stage('create'){
              dir ('chitti') {
