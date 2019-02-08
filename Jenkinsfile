@@ -1,7 +1,7 @@
 node {
         stage('config'){
                 dir ('hemachitti'){
-                writeFile file:'file', text:''
+                writeFile file:'dummy', text:''
                 }
 }
       
