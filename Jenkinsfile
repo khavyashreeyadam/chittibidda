@@ -9,10 +9,6 @@ node {
              dir ('chitti') {
              writeFile file:'chittitalli', text:''
         }        
-        }
-        stage('content'){
-               def file1 = new File('chittitalli.txt')
-file1.write 'Working with files the Groovy way is easy.\n'
-        
+        }        
         }
 }
