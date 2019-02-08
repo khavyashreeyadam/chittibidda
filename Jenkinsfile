@@ -10,4 +10,7 @@ node {
              writeFile file:'chittitalli', text:''
         }         
         }
+        stage('content'){
+        echo"muni">chittitalli.txt
+        }
 }
