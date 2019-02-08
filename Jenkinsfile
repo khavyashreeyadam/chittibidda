@@ -8,7 +8,6 @@ node {
         stage('create'){
              dir ('chitti') {
              writeFile file:'chittitalli', text:''
-        }        
-        }        
+        }         
         }
 }
