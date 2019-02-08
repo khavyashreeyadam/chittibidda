@@ -2,7 +2,7 @@ node {
         stage('config')
         {
            sh 'ls -l'
-    dir ('foo') {
+    dir ('chitti') {
         writeFile file:'dummy', text:''
                 }
     sh 'ls -l'
