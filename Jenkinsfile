@@ -10,7 +10,4 @@ node {
              writeFile file:'chittitalli', text:''
         }         
         }
-        stage('addcontent'){
-        echo"hai sdlsdhs    >> chittitalli
-        }
 }
