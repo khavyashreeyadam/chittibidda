@@ -1,13 +1,9 @@
 node {
-        stage('config')
-        {
-    dir ('chitti') 
-                writeFile file:'chittitalli', text:''
-                    }
-        stage('create'){
-             dir ('chitti') {
-             writeFile file:'chittitalli', text:''
-        }         
-        }
+        stage('config'){
+    dir ('foo') {
+        writeFile file:'dummy', text:''
+    }
+}
+      
        
 }
