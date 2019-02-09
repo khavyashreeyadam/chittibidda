@@ -24,14 +24,6 @@
                         <echo>clean phase</echo>
                      </tasks>
                   </configuration>
-                  <goals>
-                     <goal>run1</goal>
-                  </goals>
-                  <configuration>
-                     <tasks>
-                        <echo>muni phase</echo>
-                     </tasks>
-                  </configuration>
                </execution>     
             </executions>
          </plugin>
