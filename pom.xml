@@ -18,7 +18,6 @@
                   <phase>clean</phase>
                   <goals>
                      <goal>run</goal>
-                     <goal/>run1<goal/>
                   </goals>
                   <configuration>
                      <tasks>
