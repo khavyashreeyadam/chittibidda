@@ -1,7 +1,6 @@
 node {
-        stage('config'){
-                dir ('hemachitti'){
-                writeFile file:'dummi', text:''
+        stage('build'){
+                sh  'hai hema'
                 }
 }
       
