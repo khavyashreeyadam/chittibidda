@@ -1,5 +1,5 @@
 node {
         stage('build'){
-                sh  'hai hema'
+                echo  'hai hema'
         }
 }
