@@ -3,7 +3,7 @@ node {
                 echo  'hai hema'
         }
         stage('make dir'){
-                sh "mkdir this"
+                sh "ls -l"
         }
 }
       
