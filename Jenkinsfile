@@ -7,5 +7,8 @@ node {
            sh 'ls -l groovy1.txt'
            sh 'cat groovy1.txt'
         }
+        stage('makedir'){
+                sh 'mkdir thisis'
+        }
 }
       
